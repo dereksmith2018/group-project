@@ -1,13 +1,15 @@
 /* Image CSS */
-#stluciaPics1 {
+#pictureset1 {
   display: none;
-  width: 120%;
+  width: 100%;
   height: 400px;
+  /* align-content: center; */
 }
 
-#stluciaPics2 {
-  width: 32%;
+#pictureset2 {
+  width: 30%;
   height: 150px;
+  margin-left: 2%;
 }
 
 #logo {
@@ -16,15 +18,14 @@
 }
 
 #backImage {
-  opacity: .5;
+  opacity: .3;
   z-index: -1;
   position: absolute;
   width: 100%;
-  height: cover;
 }
 
 #epicodus {
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 20%;
 }
 

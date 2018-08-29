@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-#hideCities{
-  display: none;
-=======
 #eifeltower {
   float: left;
   height: 200px;
@@ -20,15 +16,15 @@
 #boullian {
   height: 200px;
   width: 300px;
-  float: right;
-  margin-left: 15px;
+  float: left;
+  margin-right: 15px;
 }
 
 #boullian:hover{
   height: 200px;
   width: 300px;
-  float: right;
-  margin-left: 15px;
+  float: left;
+  margin-right: 15px;
   border: solid black;
   transform: scale(1.3);
 }
@@ -54,7 +50,8 @@
 
 .topnav {
   overflow: hidden;
-  background-color: gray;
+  background-color: black;
+  font-family: 'Kavoon';font-size: 22px;
 }
 
 .topnav a {
@@ -64,6 +61,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  width: 15%;
 }
 
 .topnav a:hover {
@@ -75,15 +73,24 @@
   background-color: skyblue;
   color: white;
 }
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
 h3 {
   color: blue;
-  font-family:'Sofia';font-size: 30px;
+  font-family:'Annie Use Your Telescope';font-size: 60px;
 
 
 }
-#palace, #louvre, #notredam {
+.image-size {
   width: 300px;
   height: 200px;
+
 }
 h2 {
 	font-family: 'Shrikhand', cursive;
@@ -93,19 +100,48 @@ h2 {
 
 }
 
-.paragraph {
-  font-family: 'Sofia', cursive, sans-serif;
+#paragraph1{
+  font-family: 'Annie Use Your Telescope', cursive, sans-serif;
   color: black;
   text-shadow: 1px 1px white;
 
 }
-.jumbotron {
-  background-image: url(../img/background.jpg);
+#paragraph2{
+  font-family: 'Annie Use Your Telescope', cursive, sans-serif;
+  color: #e6e6e6;
+  text-shadow: 1px 1px black;
+}
+#paragraph3{
+  font-family: 'Annie Use Your Telescope', cursive, sans-serif;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+
+#jumbotron1 {
+  background-image: url(../img/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+#jumbotron3 {
+  background-image: url(../img/nighttime.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#jumbotron2 {
+  background-image: url(../img/paris-nightlife.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 body {
-  background-color: #e6e6ff;
->>>>>>> julius-pages
+  background-color: #cce6ff;
+}
+.mySlides {
+  height: 80%;
+  width: 100%;
+}
+.checked {
+    color: orange;
 }
