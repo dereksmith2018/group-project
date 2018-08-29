@@ -94,7 +94,7 @@ $("form#surveyQuestions").submit(function(event){
       }
     }
     }
-    if (isEqual) {console.log("it's a match")""}
+    if (isEqual) {console.log("it's a match")}
   }
 
 console.log(input);
